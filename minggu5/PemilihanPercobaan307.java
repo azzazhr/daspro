@@ -6,7 +6,6 @@ public class PemilihanPercobaan307 {
         double angka1, angka2, hasil;
         char operator;
 
-        
         System.out.print("Masukkan angka pertama: ");
         angka1 = input07.nextDouble();
         System.out.print("Masukkan angka kedua: ");
