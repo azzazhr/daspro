@@ -12,5 +12,7 @@ public class Lingkaran07 {
         luas=3.14*r*r;
         System.out.println(keliling);
         System.out.println(luas);
+
+        
     }
 }

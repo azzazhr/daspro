@@ -16,5 +16,7 @@ public class Gaji07 {
         potGaji=input.nextInt();
         TotGaji=(jmlMasuk*gaji)-(JmlTdkMasuk*potGaji);
         System.out.println("Gaji yang anda terima adalah " +TotGaji);
+
+        
     }
 }
