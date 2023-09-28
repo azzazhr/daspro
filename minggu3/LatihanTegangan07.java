@@ -27,5 +27,6 @@ public class LatihanTegangan07 {
         V = I * Rtotal;
         System.out.println("V =" +V);
         
+        
     }
 }

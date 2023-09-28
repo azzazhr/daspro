@@ -15,5 +15,6 @@ public class ContohOperator07 {
         z %= 2;
         System.out.println("Hasil akhir" +z);
         
+        
     }
 }
