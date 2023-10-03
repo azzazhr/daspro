@@ -14,8 +14,6 @@ public class Pemilihan2Percobaan107 {
                     System.out.println("Tahun Kabisat");
             else
                System.out.println("Bukan Tahun Kabisat");
-            
-               
         } 
     }
 }

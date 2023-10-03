@@ -26,7 +26,5 @@ public class Pemilihan2Percobaan207 {
                 System.out.println("Segitiga tersebut adalah segitiga sembarang");
          } else 
             System.out.println("Bukan Segitiga");
-            
-            
     }
 }     
