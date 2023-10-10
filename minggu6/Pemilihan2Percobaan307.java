@@ -7,12 +7,13 @@ public class Pemilihan2Percobaan307 {
         int penghasilan, gajiBersih;
         double pajak = 0;
 
-        System.out.println("Masukkan Kategori : ");
+        System.out.println("Masukkan Kategori :(1=pebisnis atau 2 =pekerja) ");
         kategori = input07.nextLine();
         System.out.println("Masukkan Besarnya Penghasilan : ");
         penghasilan = input07.nextInt();
 
-       if (kategori.equals("pekerja")) {
+       if (kategori.equals("pekerja") || kategori.equals("1")) {
+        System.out.print("Hi... pekerja. ");
             if (penghasilan <= 2000000)
                 pajak = 0.1;
                 else if (penghasilan <= 3000000)
@@ -21,7 +22,8 @@ public class Pemilihan2Percobaan307 {
                 pajak = 0.2;
             gajiBersih = (int) (penghasilan - (pajak * penghasilan));
             System.out.print("Penghasil Bersih : " + gajiBersih);
-        } else if (kategori.equals("pebisnis")) {
+        } else if (kategori.equals("pebisnis") || kategori.equals("2")) {
+             System.out.print("Hi... pebisnis. ");
              if (penghasilan <= 2500000)
                 pajak= 0.15;
             else if (penghasilan <= 3500000)
