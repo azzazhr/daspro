@@ -30,6 +30,5 @@ public class DoWhileCuti07 {
                 System.out.println("Input Konfirmasi Salah");
             } 
         } while (jatahCuti > 0);
-        
     }
 }   
