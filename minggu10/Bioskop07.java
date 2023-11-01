@@ -23,7 +23,5 @@ public class Bioskop07 {
         for (int i = 0; i < penonton.length; i++) {
             System.out.println("Panjang baris ke-" + (i + 1) + ": " + penonton[i].length);
         }
-
     }
-
 }
