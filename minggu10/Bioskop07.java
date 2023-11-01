@@ -16,6 +16,5 @@ public class Bioskop07 {
         System.out.printf("%s \t %s \n", penonton[1][0], penonton[1][1]);
         System.out.printf("%s \t %s \n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
-
     }
 }
