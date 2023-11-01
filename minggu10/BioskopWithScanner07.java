@@ -18,15 +18,14 @@ public class BioskopWithScanner07 {
             kolom = sc.nextInt();
             sc.nextLine();
 
-            penonton[baris-1][kolom-1] = nama;
+            penonton[baris - 1][kolom - 1] = nama;
 
             System.out.print("Input penonton lainnya? (y/n): ");
             next = sc.nextLine();
 
-            if (next.equalsIgnoreCase("n")){
+            if (next.equalsIgnoreCase("n")) {
                 break;
             }
-
         }
 
     }
