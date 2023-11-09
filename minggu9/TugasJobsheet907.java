@@ -1,3 +1,5 @@
+package minggu9;
+
 import java.util.Scanner;
 
 public class TugasJobsheet907 {
