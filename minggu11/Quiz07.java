@@ -17,6 +17,11 @@ public class Quiz07 {
                 int answer = input.nextInt();
                 input.nextLine();
                 success = (answer == number);
+                if (answer < number) {
+                    System.out.println("Input nilai < jawaban");
+                } else if (answer > number) {
+                    System.out.println("Input nilai > jawaban");
+                }
             } while (!success);
             System.out.print("Apakah anda ingin mengulang permainan (Y/y)?");
             menu = input.nextLine().charAt(0);
