@@ -21,14 +21,4 @@ public class Percobaan609 {
         vol = p * l * t;
         System.out.println("Volume balok adalah " + vol);
     }
-
-    static int hitungLuas(int pjg, int lb) {
-        int Luas = pjg + lb;
-        return Luas;
-    }
-
-    static int hitungVolume(int tinggi, int a, int b) {
-        int volume = hitungLuas(a, b) * tinggi;
-        return volume;
-    }
 }
