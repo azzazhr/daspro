@@ -6,7 +6,7 @@ public class Percobaan507 {
         System.out.println("Jumlah argumen/parameter: " + a.length);
 
         for (int i : a) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
 
         System.out.println();
@@ -16,5 +16,6 @@ public class Percobaan507 {
         Tampil("Daspro 2019", 100, 200);
         Tampil("Teknologi Informasi", 1, 2, 3, 4, 5);
         Tampil("Polinema");
+
     }
 }
