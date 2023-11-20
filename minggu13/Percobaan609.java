@@ -3,6 +3,16 @@ package minggu13;
 import java.util.Scanner;
 
 public class Percobaan609 {
+    static int hitungLuas(int pjg, int lb) {
+        int Luas = pjg * lb;
+        return Luas;
+    }
+
+    static int hitungVolume(int tinggi, int a, int b) {
+        int volume = hitungLuas(a, b) * tinggi;
+        return volume;
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -15,10 +25,10 @@ public class Percobaan609 {
         System.out.println("Masukkan tinggi");
         t = input.nextInt();
 
-        L = p * l;
+        L = hitungLuas(p, l);
         System.out.println("Luas Persegi panjang adalah " + L);
 
-        vol = p * l * t;
+        vol = hitungVolume(t, p, l);
         System.out.println("Volume balok adalah " + vol);
     }
 
