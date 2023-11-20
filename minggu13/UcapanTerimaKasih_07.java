@@ -19,5 +19,6 @@ public class UcapanTerimaKasih_07 {
 
     public static void main(String[] args) {
         UcapanTerimaKasih();
+
     }
 }
