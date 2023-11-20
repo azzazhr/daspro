@@ -14,5 +14,6 @@ public class TerimaKasih2_07 {
         UcapanTerimaKasih();
         String ucapan = "Terima Kasih Pak.. Bu.. Semoga Sehat Selalu";
         UcapanTambahan(ucapan);
+
     }
 }
