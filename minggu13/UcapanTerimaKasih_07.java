@@ -27,4 +27,5 @@ public class UcapanTerimaKasih_07 {
         ucapanTambahan(ucapan);
 
     }
+
 }
