@@ -21,5 +21,4 @@ public class percobaan207 {
 
         System.out.println(hitungPangkat(bilangan, pangkat));
     }
-
 }
